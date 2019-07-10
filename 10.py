@@ -1,7 +1,11 @@
-tan1,san1=map(int,input().split())
-s1=list(map(int,input().split()))
-p1=list(map(int,input().split()))
-if set(p1).issubset(set(s1)):
-    print("YES")
-else:
-    print("NO")
+san,keer = map(int,input().split())
+leny2 = list(map(int,input().split()))
+leny3 = list(map(int,input().split()))
+fk =1
+for i in leny3:
+    if i not in leny2:
+        print('NO')
+        f = 0
+        break
+if(fk):
+    print('YES')
