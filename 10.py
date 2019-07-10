@@ -5,7 +5,7 @@ fk =1
 for i in leny3:
     if i not in leny2:
         print('NO')
-        f = 0
+        fk = 0
         break
 if(fk):
     print('YES')
