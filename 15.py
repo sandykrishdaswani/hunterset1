@@ -1,5 +1,5 @@
 sandy=int(input())
-l=list(map(int, input().split()))[:n]
+l=list(map(int, input().split()))[:sandy]
 mx=max(l)
 funl=[]
 for i in range(0,len(l)):
