@@ -1,4 +1,4 @@
-sandy=input()
+krish=input()
 sandy=krish[ ::-1]
 if(sandy==krish):
      print("YES")
