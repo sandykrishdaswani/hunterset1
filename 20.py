@@ -14,6 +14,6 @@ for i in range(0,len(ks)):
                                 break
                 if ps==ks[i]-1:
                         cs=cs+1
-        elif k[i]==2:
+        elif ks[i]==2:
                 cs=cs+1
 print(cs)
