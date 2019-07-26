@@ -9,10 +9,10 @@ for i in range(Nalini):
         l1.append(m)
 for i in range(len(xx)):
     if 0 in xx[i]:
-        for j in range(K):
+        for j in range(Krih):
             xx[i][j]=0
 for i in l1:
-    for j in range(N):
+    for j in range(Nalini):
         xx[j][i]=0
 for i in xx:
     print(*i)
